@@ -10,7 +10,6 @@ import Domain.Category;
 import Util.Helper;
 
 import java.time.LocalDate;
-import java.util.function.Supplier;
 
 public class InventoryFactory {
 
