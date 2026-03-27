@@ -7,5 +7,5 @@ Date: 18 March 2026*/
 
 import Domain.Order;
 
-public interface IOrderRepository extends IRepository<Order> {
+public interface IOrderRepository extends IRepository<Order, String> {
 }

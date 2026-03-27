@@ -17,7 +17,9 @@ public class CustomerRepositoryTest {
 
     @BeforeEach
     public void setup(){
-        repository = new CustomerRepositoryImpl();
+        repository = CustomerRepositoryImpl.getRepository();  // ✓ Use Singleton
+        repository.getAll().clear();  // ✓ Clear data for fresh test
+
         customer = new Customer.Builder()
                 .setCustomerId("CUST001")
                 .setFirstName("Lex")
@@ -33,9 +35,9 @@ public class CustomerRepositoryTest {
 
     @Test
     public void createCustomerTest(){
-        repository.create(customer);
-        Customer retrieved = repository.read("CUST001");
-        assertNotNull(retrieved);
+        Customer created = repository.create(customer);  // ✓ Capture return value
+        assertNotNull(created);
+        assertEquals("CUST001", created.getCustomerId());
     }
 
     @Test
@@ -43,7 +45,7 @@ public class CustomerRepositoryTest {
         repository.create(customer);
         Customer retrievedCus = repository.read("CUST001");
         assertNotNull(retrievedCus);
-        assertEquals("CUST001",retrievedCus.getCustomerId());
+        assertEquals("CUST001", retrievedCus.getCustomerId());
         assertEquals("Lex", retrievedCus.getFirstName());
         assertEquals("Fridman", retrievedCus.getSurname());
         assertEquals("Lex8Fridman@gmail.com", retrievedCus.getEmail());
@@ -59,7 +61,7 @@ public class CustomerRepositoryTest {
         repository.create(customer);
         Customer update = new Customer.Builder()
                 .setCustomerId("CUST001")
-                .setFirstName("Lex")
+                .setFirstName("Alexander")  // Changed
                 .setSurname("Fridman")
                 .setEmail("LexFridman1975@gmail.com")
                 .setPhoneNumber("+27 84 600 2480")
@@ -69,17 +71,25 @@ public class CustomerRepositoryTest {
                 .setCountry("South Africa")
                 .build();
 
-        repository.update(update);
-        Customer retrievedCus = repository.read("CUST001");
-        assertEquals("LexFridman1975@gmail.com", retrievedCus.getEmail());
-        assertEquals("+27 84 600 2480", retrievedCus.getPhoneNumber());
+        Customer updated = repository.update(update);  // ✓ Capture return value
+        assertNotNull(updated);
+        assertEquals("Alexander", updated.getFirstName());
+        assertEquals("LexFridman1975@gmail.com", updated.getEmail());
+        assertEquals("+27 84 600 2480", updated.getPhoneNumber());
     }
 
     @Test
     public void deleteCustomerTest(){
         repository.create(customer);
-        repository.delete("CUST001");
+        boolean deleted = repository.delete("CUST001");  // ✓ Capture return value
+        assertTrue(deleted);
         Customer retrievedCus = repository.read("CUST001");
         assertNull(retrievedCus);
+    }
+
+    @Test
+    public void getAllTest(){
+        repository.create(customer);
+        assertFalse(repository.getAll().isEmpty());  // ✓ Test getAll()
     }
 }

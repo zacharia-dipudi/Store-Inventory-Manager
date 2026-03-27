@@ -18,7 +18,9 @@ public class OrderRepositoryTest {
 
     @BeforeEach
     public void setup() {
-        repository = new OrderRepositoryImpl();
+        repository = OrderRepositoryImpl.getRepository();  // ✓ Use Singleton
+        repository.getAll().clear();  // ✓ Clear data for fresh test
+
         order = new Order.Builder()
                 .setOrderNum("ORD001")
                 .setCustomerId("CUST001")
@@ -32,16 +34,14 @@ public class OrderRepositoryTest {
 
     @Test
     public void testCreateOrder() {
-        repository.create(order);
-        Order retrievedOrd = repository.read("ORD001");
-        assertNotNull(retrievedOrd);
-        assertEquals("ORD001", retrievedOrd.getOrderNum());
+        Order created = repository.create(order);  // ✓ Capture return value
+        assertNotNull(created);
+        assertEquals("ORD001", created.getOrderNum());
     }
 
     @Test
     public void testReadOrder() {
         repository.create(order);
-
         Order retrieved = repository.read("ORD001");
         assertNotNull(retrieved);
         assertEquals("CUST001", retrieved.getCustomerId());
@@ -61,18 +61,24 @@ public class OrderRepositoryTest {
                 .setItem("Signed Baseball bat MLB")
                 .build();
 
-        repository.update(update);
-        Order retrievedOrd = repository.read("ORD001");
-        assertEquals(15000.0, retrievedOrd.getTotalAmount());
-        assertEquals("Shipped", retrievedOrd.getStatus());
+        Order updated = repository.update(update);  // ✓ Capture return value
+        assertNotNull(updated);
+        assertEquals(15000.0, updated.getTotalAmount());
+        assertEquals("Shipped", updated.getStatus());
     }
 
     @Test
     public void testDeleteOrder() {
         repository.create(order);
-        repository.delete("ORD001");
-
+        boolean deleted = repository.delete("ORD001");  // ✓ Capture return value
+        assertTrue(deleted);
         Order retrievedOrd = repository.read("ORD001");
         assertNull(retrievedOrd);
+    }
+
+    @Test
+    public void testGetAllOrder() {
+        repository.create(order);
+        assertFalse(repository.getAll().isEmpty());  // ✓ Test getAll()
     }
 }

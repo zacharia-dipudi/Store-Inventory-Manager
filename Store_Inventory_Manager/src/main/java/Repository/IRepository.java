@@ -1,8 +1,11 @@
 package Repository;
 
-public interface IRepository <T> {
-    public void create(T entity);
-    T read(String id);
-    public void update(T entity);
-    public void delete(String id);
+import java.util.Set;
+
+public interface IRepository<T, ID> {
+    T create(T t);
+    T read(ID id);
+    T update(T t);
+    boolean delete(ID id);
+    Set<T> getAll();
 }
