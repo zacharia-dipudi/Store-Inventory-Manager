@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a19e5b7-6771-424a-a03b-b908860b58c0" name="Changes" comment="" />
+    <list default="true" id="6a19e5b7-6771-424a-a03b-b908860b58c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Store-Inventory-Manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/CustomerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/OrderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Domain/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Domain/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Factory/CustomerFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Factory/OrderFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/CustomerRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Customer$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Order$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Factory/CustomerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Factory/Employee_Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Factory/OrderFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/CustomerRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/ICustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/IOrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/IRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/OrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/OrderRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Util/Helper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Domain/CustomerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Domain/OrderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Factory/CustomerFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Factory/OrderFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Repository/CustomerRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Repository/OrderRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/Employee_Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/IStoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IStoreRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +92,9 @@
     "JUnit.CustomerFactoryTest.createCustomerAllFields.executor": "Run",
     "JUnit.CustomerFactoryTest.factoryCreatesValidCustomerTest.executor": "Run",
     "JUnit.CustomerRepositoryTest.createCustomerTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.delete.executor": "Run",
     "JUnit.CustomerRepositoryTest.deleteCustomerTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.executor": "Run",
     "JUnit.CustomerRepositoryTest.readCustomerTest.executor": "Run",
     "JUnit.CustomerRepositoryTest.updateCustomerTest.executor": "Run",
     "JUnit.CustomerTest.createCustomerAllFieldsTest.executor": "Run",
@@ -63,13 +108,14 @@
     "JUnit.OrderTest.createOrderAllFieldsTest.executor": "Run",
     "JUnit.OrderTest.executor": "Run",
     "JUnit.OrderTest.orderCreatedTest.executor": "Run",
+    "JUnit.ProductRepositoryTest.delete.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Matthew",
+    "git-widget-placeholder": "Merging main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -90,7 +136,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerRepositoryTest.readCustomerTest">
+  <component name="RunManager" selected="JUnit.OrderRepositoryTest.testDeleteOrder">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Store_Inventory_Manager" />
@@ -98,17 +144,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerRepositoryTest.readCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Store_Inventory_Manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Repository.*" />
+          <option name="PATTERN" value="repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Repository" />
-      <option name="MAIN_CLASS_NAME" value="Repository.CustomerRepositoryTest" />
-      <option name="METHOD_NAME" value="readCustomerTest" />
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.CustomerRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepositoryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Store_Inventory_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.CustomerRepositoryTest" />
+      <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,57 +179,50 @@
       <module name="Store_Inventory_Manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Repository.*" />
+          <option name="PATTERN" value="repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Repository" />
-      <option name="MAIN_CLASS_NAME" value="Repository.OrderRepositoryTest" />
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.OrderRepositoryTest" />
       <option name="METHOD_NAME" value="testDeleteOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRepositoryTest.testReadOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepositoryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Store_Inventory_Manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Repository.*" />
+          <option name="PATTERN" value="repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Repository" />
-      <option name="MAIN_CLASS_NAME" value="Repository.OrderRepositoryTest" />
-      <option name="METHOD_NAME" value="testReadOrder" />
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRepositoryTest.updateOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Store_Inventory_Manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Repository" />
-      <option name="MAIN_CLASS_NAME" value="Repository.OrderRepositoryTest" />
-      <option name="METHOD_NAME" value="updateOrderTest" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerRepositoryTest.readCustomerTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OrderRepositoryTest.testDeleteOrder" />
-        <item itemvalue="JUnit.OrderRepositoryTest.updateOrderTest" />
-        <item itemvalue="JUnit.OrderRepositoryTest.testReadOrder" />
+        <item itemvalue="JUnit.CustomerRepositoryTest.delete" />
+        <item itemvalue="JUnit.ProductRepositoryTest.delete" />
+        <item itemvalue="JUnit.CustomerRepositoryTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

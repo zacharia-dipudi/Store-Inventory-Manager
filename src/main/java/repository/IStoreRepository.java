@@ -10,7 +10,4 @@ import java.util.List;
 
 public interface IStoreRepository extends IRepository<Store, String> {
     List<Store>getAll();
-
-
-
 }
