@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a19e5b7-6771-424a-a03b-b908860b58c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Store-Inventory-Manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/CustomerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factory/OrderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Domain/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Domain/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Factory/CustomerFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Factory/OrderFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/CustomerRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Repository/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Customer$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Order$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Factory/CustomerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Factory/Employee_Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Factory/OrderFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/CustomerRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/ICustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/IOrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/IRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/OrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Repository/OrderRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Util/Helper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Domain/CustomerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Domain/OrderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Factory/CustomerFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Factory/OrderFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Repository/CustomerRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Repository/OrderRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Factory/Employee_Factory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/IStoreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/IStoreRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Matthew-codez&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Matthew-codez/Store-Inventory-Manager.git&quot;,
+    &quot;accountId&quot;: &quot;05cc771b-f764-4ae2-a52a-83180eb9cf5f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3BDEz6NZE1bn1eZlz1dZzXxZBdr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.CustomerFactoryTest.createCustomerAllFields.executor": "Run",
+    "JUnit.CustomerFactoryTest.factoryCreatesValidCustomerTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.createCustomerTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.delete.executor": "Run",
+    "JUnit.CustomerRepositoryTest.deleteCustomerTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.readCustomerTest.executor": "Run",
+    "JUnit.CustomerRepositoryTest.updateCustomerTest.executor": "Run",
+    "JUnit.CustomerTest.createCustomerAllFieldsTest.executor": "Run",
+    "JUnit.CustomerTest.customerCreatedTest.executor": "Run",
+    "JUnit.OrderFactoryTest.createOrderAllFieldsTest.executor": "Run",
+    "JUnit.OrderFactoryTest.factoryCreatesValidCustomerTest.executor": "Run",
+    "JUnit.OrderRepositoryTest.testCreateOrder.executor": "Run",
+    "JUnit.OrderRepositoryTest.testDeleteOrder.executor": "Run",
+    "JUnit.OrderRepositoryTest.testReadOrder.executor": "Run",
+    "JUnit.OrderRepositoryTest.updateOrderTest.executor": "Run",
+    "JUnit.OrderTest.createOrderAllFieldsTest.executor": "Run",
+    "JUnit.OrderTest.executor": "Run",
+    "JUnit.OrderTest.orderCreatedTest.executor": "Run",
+    "JUnit.ProductRepositoryTest.delete.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Merging main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderRepositoryTest.testDeleteOrder">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Store_Inventory_Manager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Store_Inventory_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.CustomerRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepositoryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Store_Inventory_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.CustomerRepositoryTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderRepositoryTest.testDeleteOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Store_Inventory_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.OrderRepositoryTest" />
+      <option name="METHOD_NAME" value="testDeleteOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Store_Inventory_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderRepositoryTest.testDeleteOrder" />
+        <item itemvalue="JUnit.CustomerRepositoryTest.delete" />
+        <item itemvalue="JUnit.ProductRepositoryTest.delete" />
+        <item itemvalue="JUnit.CustomerRepositoryTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a19e5b7-6771-424a-a03b-b908860b58c0" name="Changes" comment="" />
+      <created>1774015500068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774015500068</updated>
+      <workItem from="1774015501308" duration="5302000" />
+      <workItem from="1774129821548" duration="246000" />
+      <workItem from="1774163340877" duration="7573000" />
+      <workItem from="1774351328357" duration="14488000" />
+      <workItem from="1774544852242" duration="1967000" />
+      <workItem from="1774602633092" duration="2370000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
