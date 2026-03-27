@@ -5,7 +5,7 @@ import Domain.Order;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderRepositoryImpl implements OrderRepository {
+public class OrderRepositoryImpl implements IOrderRepository {
     private List<Order> order = new ArrayList<>();
 
     @Override

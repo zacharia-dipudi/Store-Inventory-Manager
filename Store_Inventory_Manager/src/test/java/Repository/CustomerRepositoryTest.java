@@ -8,16 +8,16 @@ Date: 20 March 2026*/
 import Domain.Customer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import Repository.CustomerRepository;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CustomerRepositoryTest {
-    private CustomerRepository repository;
+    private ICustomerRepository repository;
     private Customer customer;
 
     @BeforeEach
     public void setup(){
-        repository = new CustomerRepository();
+        repository = new CustomerRepositoryImpl();
         customer = new Customer.Builder()
                 .setCustomerId("CUST001")
                 .setFirstName("Lex")

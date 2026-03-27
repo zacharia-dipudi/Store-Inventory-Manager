@@ -6,13 +6,13 @@ Author: Matthew Ferreira (230048870)
 Date: 14 March 2026*/
 
 public class Order {
-    String orderNum;
-    String customerId;
-    String orderDate;
-    String deliveryDate;
+    private String orderNum;
+    private String customerId;
+    private String orderDate;
+    private String deliveryDate;
     double totalAmount;
-    String status;
-    String item;
+    private String status;
+    private String item;
 
     public String getOrderNum() {
         return orderNum;

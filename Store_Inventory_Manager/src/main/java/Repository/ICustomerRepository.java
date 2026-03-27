@@ -7,5 +7,5 @@ Date: 18 March 2026*/
 
 import Domain.Customer;
 
-public interface CustomerRepository extends IRepository<Customer> {
+public interface ICustomerRepository extends IRepository<Customer> {
 }

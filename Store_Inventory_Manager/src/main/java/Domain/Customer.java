@@ -6,15 +6,15 @@ Author: Matthew Ferreira (230048870)
 Date: 14 March 2026*/
 
 public class Customer {
-    String customerId;
-    String firstName;
-    String surname;
-    String email;
-    String phoneNumber;
-    String address;
-    String city;
-    String postalCode;
-    String country;
+    private String customerId;
+    private String firstName;
+    private String surname;
+    private String email;
+    private String phoneNumber;
+    private String address;
+    private String city;
+    private String postalCode;
+    private String country;
 
     public String getCustomerId() {
         return customerId;

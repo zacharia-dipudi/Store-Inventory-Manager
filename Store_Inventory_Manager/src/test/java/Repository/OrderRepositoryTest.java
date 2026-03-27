@@ -10,16 +10,15 @@ import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
 import Domain.Order;
-import Repository.OrderRepository;
 
 public class OrderRepositoryTest {
 
-    private OrderRepository repository;
+    private IOrderRepository repository;
     private Order order;
 
     @BeforeEach
     public void setup() {
-        repository = new OrderRepository();
+        repository = new OrderRepositoryImpl();
         order = new Order.Builder()
                 .setOrderNum("ORD001")
                 .setCustomerId("CUST001")

@@ -9,7 +9,7 @@ import Domain.Customer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomerRepositoryImpl implements CustomerRepository{
+public class CustomerRepositoryImpl implements ICustomerRepository {
     private List<Customer> customer = new ArrayList<>();
 
     @Override
