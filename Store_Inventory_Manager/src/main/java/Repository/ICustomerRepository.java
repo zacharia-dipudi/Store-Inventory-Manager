@@ -1,7 +1,7 @@
 package Repository;
 
 /* ICustomerRepository.java
-CustomerRepository class
+ICustomerRepository class
 Author: Matthew Ferreira (230048870)
 Date: 18 March 2026*/
 
