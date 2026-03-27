@@ -1,7 +1,7 @@
 package Repository;
 
-/* CustomerRepository.java
-CustomerRepository class
+/* CustomerRepositoryImpl.java
+CustomerRepositoryImpl class
 Author: Matthew Ferreira (230048870)
 Date: 18 March 2026*/
 
