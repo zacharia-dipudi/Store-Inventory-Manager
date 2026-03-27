@@ -15,10 +15,6 @@ public class CustomerRepositoryImpl implements ICustomerRepository {
     private static CustomerRepositoryImpl repository = null;
     private List<Customer> customer = new ArrayList<>();
 
-    private CustomerRepositoryImpl() {
-        customer = new ArrayList<>();
-    }
-
     public static CustomerRepositoryImpl getRepository() {
         if (repository == null) {
             repository = new CustomerRepositoryImpl();

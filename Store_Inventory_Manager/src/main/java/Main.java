@@ -1,3 +1,8 @@
+/* Main.java
+Main class
+Author: Matthew Ferreira (230048870)
+Date: 24 March 2026*/
+
 import Domain.Customer;
 import Domain.Order;
 import Factory.CustomerFactory;

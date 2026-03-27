@@ -21,10 +21,6 @@ public class OrderRepositoryImpl implements IOrderRepository {
     private static OrderRepositoryImpl repository = null;
     private List<Order> order = new ArrayList<>();
 
-    private OrderRepositoryImpl() {
-        order = new ArrayList<>();
-    }
-
     public static OrderRepositoryImpl getRepository() {
         if (repository == null) {
             repository = new OrderRepositoryImpl();
